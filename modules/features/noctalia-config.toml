@@ -84,7 +84,7 @@ widget_order = [ "lockscreen-login-box@eDP-1" ]
 media = false
 
 [plugins]
-enabled = [ "noctalia/bongocat" ]
+enabled = [ "noctalia/bongocat", "dotnetrob/cat" ]
 
 [shell]
 avatar_path = "/home/rares/Downloads/f22b558aa71f4fcedd9ce247218f1039.jpg"
@@ -175,6 +175,7 @@ show_label = false
 [widget.cat]
 capsule = true
 capsule_opacity = 0.0
+input_devices = [ "/dev/input/event0" ]
 type = "noctalia/bongocat:cat"
 
 [widget.clock]
@@ -200,6 +201,10 @@ show_label = false
 group_by_workspace = true
 hide_empty_workspaces = true
 icon_scale = 1.05
+
+    [widget.taskbar.actions]
+    scroll_down = "taskbar-cycle prev"
+    scroll_up = "taskbar-cycle next"
 
 [widget.volume]
 show_label = false

@@ -101,7 +101,7 @@ boot.kernelModules = [ "asus_wmi_sensors" ];
   users.users."rares" = {
     isNormalUser = true;
     description = "Rares";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "input" ];
     packages = with pkgs; [
       kdePackages.kate
     #  thunderbird
