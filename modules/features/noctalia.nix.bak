@@ -1,0 +1,7 @@
+{ self, inputs, ... }: {
+  perSystem = { pkgs, ... }: {
+    packages.myNoctalia =
+      inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default;
+  };
+  settings = (builtins.fromTOML (builtins.readFile ./noctalia-config.toml)).settings;
+}
