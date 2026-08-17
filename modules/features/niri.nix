@@ -64,6 +64,7 @@ extraConfig = ''
 
   environment {
     QT_QPA_PLATFORMTHEME "kde"
+    XDG_MENU_PREFIX "plasma-"
 }
 
 layer-rule {
