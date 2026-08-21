@@ -21,6 +21,7 @@
       cava
       fastfetch
       dwt1-shell-color-scripts
+      fd
 
       # Fonts
       nerd-fonts.noto
