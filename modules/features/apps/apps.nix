@@ -10,10 +10,12 @@
       # Development
       git
       evtest
-      inputs.nix4nvchad.packages.${pkgs.stdenv.hostPlatform.system}.default
+      inputs.lazyvim.packages.${pkgs.stdenv.hostPlatform.system}.default
       ripgrep
       luaPackages.tree-sitter-cli
       tree-sitter
+      neovim
+      gcc
 
       # TUI
       cava
