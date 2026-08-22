@@ -92,7 +92,7 @@
             "Mod+W".spawn-sh = "zen";
             "Mod+X".spawn-sh = "${lib.getExe self'.packages.myNoctalia} msg panel-toggle session";
             "Mod+Shift+S".spawn-sh = "${lib.getExe self'.packages.myNoctalia} msg screenshot-region";
-            "Mod+V".spawn-sh = "${lib.getExe self'.packages.myNoctalia} msg clipboard";
+            "Mod+V".spawn-sh = "${lib.getExe self'.packages.myNoctalia} msg panel-toggle clipboard";
             "Mod+Print".spawn-sh = "${lib.getExe self'.packages.myNoctalia} msg screenshot-fullscreen";
             "XF86MonBrightnessUp".spawn-sh = "${lib.getExe self'.packages.myNoctalia} msg brightness-up";
             "XF86MonBrightnessDown".spawn-sh = "${lib.getExe self'.packages.myNoctalia} msg brightness-down";
