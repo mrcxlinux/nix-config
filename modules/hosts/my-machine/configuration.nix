@@ -74,7 +74,7 @@ boot.kernelModules = [ "asus_wmi_sensors" ];
 
   services.printing = {
   enable = true;
-  drivers = [ pkgs.epson-escpr2 ];
+  drivers = [ pkgs.epson-escpr ];
 };
 
 

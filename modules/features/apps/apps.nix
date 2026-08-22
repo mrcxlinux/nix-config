@@ -7,6 +7,9 @@
       # Web
       inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
 
+      # Office
+      onlyoffice-desktopeditors
+
       # Development
       git
       evtest
@@ -16,15 +19,24 @@
       tree-sitter
       neovim
       gcc
+      meson
+      go
+      nodejs_26
+      cargo
+      statix
+      nixfmt
 
       # TUI
       cava
       fastfetch
       dwt1-shell-color-scripts
       fd
+      unzip
+      wget
 
       # Fonts
       nerd-fonts.noto
+      corefonts
     ];
   };
 }
